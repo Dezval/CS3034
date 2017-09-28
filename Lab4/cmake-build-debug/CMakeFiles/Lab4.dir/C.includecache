@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Dezval/CLionProjects/Lab4/linked_list.c
+stdio.h
+-
+stdlib.h
+-
+linked_list.h
+C:/Users/Dezval/CLionProjects/Lab4/linked_list.h
+
+C:/Users/Dezval/CLionProjects/Lab4/linked_list.h
+monster_attack.h
+C:/Users/Dezval/CLionProjects/Lab4/monster_attack.h
+
+C:/Users/Dezval/CLionProjects/Lab4/main.c
+stdio.h
+-
+linked_list.h
+C:/Users/Dezval/CLionProjects/Lab4/linked_list.h
+linked_list.c
+C:/Users/Dezval/CLionProjects/Lab4/linked_list.c
+monster_attack.h
+C:/Users/Dezval/CLionProjects/Lab4/monster_attack.h
+
+C:/Users/Dezval/CLionProjects/Lab4/monster_attack.h
+

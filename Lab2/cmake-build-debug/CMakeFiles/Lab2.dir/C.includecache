@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Dezval/CLionProjects/Lab2/header.h
+
+C:/Users/Dezval/CLionProjects/Lab2/main.c
+stdio.h
+-
+malloc.h
+-
+header.h
+C:/Users/Dezval/CLionProjects/Lab2/header.h
+
