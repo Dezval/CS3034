@@ -46,8 +46,8 @@ int main() {
     int ID;
 
     void *(*initData)(void *data);
-    int *(*dataID)(void *data);
-    void *(*printIt) (void *data);
+    int (*dataID)(void *data) = NULL;
+    void (*printIt) (void *data) = NULL;
     void* data;
 
     printf("Please choose a struct type:\n");
