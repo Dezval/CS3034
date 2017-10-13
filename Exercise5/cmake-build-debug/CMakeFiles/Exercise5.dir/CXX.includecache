@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Dezval/CLionProjects/Exercise5/circle.cpp
+iostream
+-
+math.h
+-
+circle.h
+C:/Users/Dezval/CLionProjects/Exercise5/circle.h
+
+C:/Users/Dezval/CLionProjects/Exercise5/circle.h
+
+C:/Users/Dezval/CLionProjects/Exercise5/main.cpp
+iostream
+-
+circle.h
+C:/Users/Dezval/CLionProjects/Exercise5/circle.h
+

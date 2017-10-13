@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Dezval/CLionProjects/Excersie4/StockPrice.cpp
+StockPrice.h
+C:/Users/Dezval/CLionProjects/Excersie4/StockPrice.h
+
+C:/Users/Dezval/CLionProjects/Excersie4/StockPrice.h
+cstring
+-
+vector
+-
+
+C:/Users/Dezval/CLionProjects/Excersie4/main.cpp
+iostream
+-
+
