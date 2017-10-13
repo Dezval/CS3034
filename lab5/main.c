@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "linked_list.h"
-#include "linked_list.c"
+//#include "linked_list.c"
 #include "monster.h"
 #include "savings.h"
 
