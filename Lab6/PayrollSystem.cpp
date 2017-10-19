@@ -37,7 +37,6 @@ void PayrollSystem::hoursWorkedByEmployee(string eid, int hoursWorked) {
 
 void PayrollSystem::issuePaychecks() {
     int max = employees.size();
-    int index;
     for(int i = 0; i < max; i++){
             paychecks.push_back(Paycheck(employees.at(i).getEmployeeId(),
                                          employees.at(i).getFirstName(),
