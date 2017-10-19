@@ -23,7 +23,6 @@ monsterAttack *init(monsterAttack *data){
 }
 
 void print(monsterAttack* data){
-    printf("Displaying DATA:\n");
     printf("ID: %d\n", data->attackID);
     printf(" | Location: %s", data->attackLocation);
     printf(" | Monster: %s", data->monsterName);

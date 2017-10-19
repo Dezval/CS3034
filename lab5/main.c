@@ -44,6 +44,7 @@ int main() {
     printf("Hello, World!\n");
     int command;
     int ID;
+    int idcount = 0;
 
     void *(*initData)(void *data);
     int (*dataID)(void *data) = NULL;

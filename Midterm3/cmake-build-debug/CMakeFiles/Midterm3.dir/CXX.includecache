@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Dezval/CLionProjects/Midterm3/blob.cpp
+blob.h
+C:/Users/Dezval/CLionProjects/Midterm3/blob.h
+
+C:/Users/Dezval/CLionProjects/Midterm3/blob.h
+
+C:/Users/Dezval/CLionProjects/Midterm3/main.cpp
+iostream
+-
+vector
+-
+blob.h
+C:/Users/Dezval/CLionProjects/Midterm3/blob.h
+

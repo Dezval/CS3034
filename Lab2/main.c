@@ -45,26 +45,36 @@ void copyDoubleArray(double *array, double *array2, int length){
 
 int main() {
 
-    int arraySize = 10;
-    double *p = (double*) malloc(sizeof(double)*arraySize);
-    double *p2 = (double*) malloc(sizeof(double)*arraySize);
+    int size = 5;
+    int my_array[] = {1, 2, 3, 4, 5};
+    int *v, *last;
+    last = &my_array[size-1];
+    v = my_array;
+    while (v <= last){
+        printf("Value at %p is %d\n", v, *v);
+        v++;     // this line!
+    }
 
-
-    inputArray(p,arraySize);
-    printf("\nArray 1: ");
-    printArray(p,arraySize);
-    copyDoubleArray(p,p2,arraySize);
-    printf("\nArray 2: ");
-    printArray(p2,arraySize);
-    reciprocalArray(p2,arraySize);
-
-    printf("\nOriginal ");
-    printArray(p,arraySize);
-    printf("\nReciprocal ");
-    printArray(p2,arraySize);
-
-
-    free(p);
-    free(p2);
+//    int arraySize = 10;
+//    double *p = (double*) malloc(sizeof(double)*arraySize);
+//    double *p2 = (double*) malloc(sizeof(double)*arraySize);
+//
+//
+//    inputArray(p,arraySize);
+//    printf("\nArray 1: ");
+//    printArray(p,arraySize);
+//    copyDoubleArray(p,p2,arraySize);
+//    printf("\nArray 2: ");
+//    printArray(p2,arraySize);
+//    reciprocalArray(p2,arraySize);
+//
+//    printf("\nOriginal ");
+//    printArray(p,arraySize);
+//    printf("\nReciprocal ");
+//    printArray(p2,arraySize);
+//
+//
+//    free(p);
+//    free(p2);
     return 0;
 }
