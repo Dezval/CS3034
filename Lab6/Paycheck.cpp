@@ -26,6 +26,8 @@ string Paycheck::getPaycheck() {
     return "Paycheck for $" + to_string(pay) +" issued to " + eid + " " +fname+ " " + lname;
 }
 
+
+
 const string &Paycheck::getEmployeeId() const {
     return employeeId;
 }
@@ -33,3 +35,12 @@ const string &Paycheck::getEmployeeId() const {
 void Paycheck::setEmployeeId(const string &employeeId) {
     Paycheck::employeeId = employeeId;
 }
+
+double Paycheck::getPayAmount() const {
+    return payAmount;
+}
+
+void Paycheck::setPayAmount(double payAmount) {
+    Paycheck::payAmount = payAmount;
+}
+

@@ -17,6 +17,7 @@ int main() {
     payroll.hoursWorkedByEmployee("E0004",300);
 
     payroll.issuePaychecks();
+
 //
     payroll.removeEmployee("E0001");
     cout << "updating data" << endl;

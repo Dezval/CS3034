@@ -37,13 +37,28 @@ void PayrollSystem::hoursWorkedByEmployee(string eid, int hoursWorked) {
 
 void PayrollSystem::issuePaychecks() {
     int max = employees.size();
+    int index;
     for(int i = 0; i < max; i++){
-        paychecks.push_back(Paycheck(employees.at(i).getEmployeeId(),
-                                     employees.at(i).getFirstName(),
-                                     employees.at(i).getLastName(),
-                                     employees.at(i).calcPay()));
+            paychecks.push_back(Paycheck(employees.at(i).getEmployeeId(),
+                                         employees.at(i).getFirstName(),
+                                         employees.at(i).getLastName(),
+                                         employees.at(i).calcPay()));
         employees.at(i).setHoursWorked(0);
         cout << paychecks.at(i).getPaycheck() << endl;
     }
-    paychecks.clear();
+    for(int i = 0; i < max; i ++){
+        if(!paychecks.empty())
+            paychecks.erase(paychecks.begin());
+    }
+
+}
+
+int PayrollSystem::paycheckExists(string eid) {
+    int max = employees.size();
+    for(int i = 0; i < max; i++){
+        if(paychecks[i].getEmployeeId() == eid){
+            return i;
+        }
+    }
+    return -1;
 }

@@ -12,6 +12,10 @@ public:
 
     const string &getEmployeeId() const;
 
+    double getPayAmount() const;
+
+    void setPayAmount(double payAmount);
+
     void setEmployeeId(const string &employeeId);
 
 private:
