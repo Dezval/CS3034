@@ -51,13 +51,3 @@ void PayrollSystem::issuePaychecks() {
     }
 
 }
-
-int PayrollSystem::paycheckExists(string eid) {
-    int max = employees.size();
-    for(int i = 0; i < max; i++){
-        if(paychecks[i].getEmployeeId() == eid){
-            return i;
-        }
-    }
-    return -1;
-}

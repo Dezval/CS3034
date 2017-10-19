@@ -14,7 +14,6 @@ public:
     void removeEmployee(string eid);
     void hoursWorkedByEmployee(string eid, int hoursWorked);
     void issuePaychecks();
-    int paycheckExists(string eid);
 
 private:
     string companyName;
